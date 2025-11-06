@@ -1,0 +1,1 @@
+savedcmd_Module.symvers :=  /home/vinod/workspace/ldd/source/bb-kernel/KERNEL/scripts/mod/modpost -M -m -b        -o Module.symvers -T modules.order -i /home/vinod/workspace/ldd/source/bb-kernel/KERNEL/Module.symvers -e 

@@ -1,0 +1,1 @@
+savedcmd_main.ko := arm-none-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/vinod/workspace/ldd/source/bb-kernel/KERNEL/scripts/module.lds -o main.ko main.o main.mod.o .module-common.o

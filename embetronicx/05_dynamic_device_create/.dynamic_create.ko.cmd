@@ -1,0 +1,1 @@
+savedcmd_dynamic_create.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.14.0-33-generic/scripts/module.lds -o dynamic_create.ko dynamic_create.o dynamic_create.mod.o .module-common.o

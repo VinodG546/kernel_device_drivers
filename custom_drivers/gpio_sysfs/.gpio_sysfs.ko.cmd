@@ -1,0 +1,1 @@
+savedcmd_gpio_sysfs.ko := arm-none-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/vinod/workspace/ldd/source/bb-kernel/KERNEL/scripts/module.lds -o gpio_sysfs.ko gpio_sysfs.o gpio_sysfs.mod.o .module-common.o
